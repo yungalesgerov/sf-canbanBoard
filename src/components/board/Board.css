@@ -1,0 +1,19 @@
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 19px 0;
+	/* justify-content: center; */
+	/* width: 100%; */
+	justify-content: space-between;
+}
+
+@media screen and (min-width:870px) and (max-width:1160px) {
+	.board {
+		justify-content: none;
+		flex-wrap: wrap;
+	}
+	
+	.list {
+		width: 200px;
+	}
+}
